@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Напрямки — AURORA</title>
+<meta name="description" content="Від суборбітального польоту до Марса — обери напрямок своєї орбітальної подорожі з AURORA.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,380;0,9..144,500;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a href="index.html" class="logo">AURORA</a>
+    <nav class="nav-menu">
+      <a href="index.html" class="nav-link">Головна</a>
+      <a href="destinations.html" class="nav-link is-active">Напрямки</a>
+      <a href="experience.html" class="nav-link">Місії</a>
+      <a href="about.html" class="nav-link">Про нас</a>
+      <a href="contact.html" class="nav-link">Контакти</a>
+    </nav>
+    <div class="nav-actions">
+      <a href="contact.html" class="btn btn-primary nav-cta">Забронювати</a>
+      <button class="nav-toggle" aria-label="Відкрити меню">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <section class="page-header">
+    <div class="container">
+      <span class="eyebrow">Log // Напрямки</span>
+      <h1>Обери свою <em>подорож</em></h1>
+      <p class="lead">Від короткого польоту до межі космосу до багатомісячної експедиції на Марс — обери маршрут, що відповідає твоїй мрії.</p>
+    </div>
+  </section>
+
+  <section class="section section-tight">
+    <div class="container">
+      <div class="filter-tabs">
+        <button class="filter-tab is-active" data-filter="all">Всі</button>
+        <button class="filter-tab" data-filter="orbit">Навколоземна орбіта</button>
+        <button class="filter-tab" data-filter="moon">Місяць</button>
+        <button class="filter-tab" data-filter="deep">Далекий космос</button>
+      </div>
+
+      <div class="chip-grid">
+        <article class="chip reveal" data-category="orbit">
+          <div class="chip-swatch swatch-orbit"><span class="chip-code">ORB-01</span></div>
+          <div class="chip-body">
+            <span class="badge">Найпопулярніше</span>
+            <h3>Міжнародна орбітальна станція</h3>
+            <p>3 дні на висоті 400 км. Невагомість, 16 світанків на добу та панорамний вид на Землю крізь оглядовий модуль.</p>
+            <div class="chip-meta"><span>3 дні</span><span>від $180 000</span></div>
+          </div>
+        </article>
+
+        <article class="chip reveal" data-category="orbit">
+          <div class="chip-swatch swatch-suborbital"><span class="chip-code">SUB-00</span></div>
+          <div class="chip-body">
+            <h3>Суборбітальний політ</h3>
+            <p>Коротка, але незабутня подорож до межі космосу — 12 хвилин невагомості та вигин Землі на власні очі.</p>
+            <div class="chip-meta"><span>~2 години</span><span>від $45 000</span></div>
+          </div>
+        </article>
+
+        <article class="chip reveal" data-category="moon">
+          <div class="chip-swatch swatch-moon"><span class="chip-code">LUN-07</span></div>
+          <div class="chip-body">
+            <h3>Місячна орбіта</h3>
+            <p>Обліт Місяця з наближенням до станції «Артеміда» та видом на його темний бік, якого не видно з Землі.</p>
+            <div class="chip-meta"><span>7 днів</span><span>від $950 000</span></div>
+          </div>
+        </article>
+
+        <article class="chip reveal" data-category="deep">
+          <div class="chip-swatch swatch-mars"><span class="chip-code">MAR-01</span></div>
+          <div class="chip-body">
+            <span class="badge">Флагманська місія</span>
+            <h3>Марс</h3>
+            <p>Найамбітніша подорож AURORA: 9 місяців польоту до Червоної планети та орбітальний огляд її поверхні.</p>
+            <div class="chip-meta"><span>9 місяців</span><span>за запитом</span></div>
+          </div>
+        </article>
+
+        <article class="chip reveal" data-category="deep">
+          <div class="chip-swatch swatch-venus"><span class="chip-code">VEN-03</span></div>
+          <div class="chip-body">
+            <h3>Венера — орбітальний обліт</h3>
+            <p>Безпечний огляд найгарячішої планети Сонячної системи з високої, стабільної орбіти.</p>
+            <div class="chip-meta"><span>5 місяців</span><span>за запитом</span></div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-tight">
+    <div class="container">
+      <div class="cta-band reveal">
+        <span class="eyebrow">Потрібна порада?</span>
+        <h2>Не можеш обрати <em>напрямок?</em></h2>
+        <p>Наші консультанти допоможуть підібрати ідеальну місію під твій досвід, бюджет і графік.</p>
+        <div class="cta-actions">
+          <a href="contact.html" class="btn btn-primary">Зв'язатися з нами</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div>
+        <a href="index.html" class="logo">AURORA</a>
+        <p class="footer-blurb">Приватні орбітальні експедиції для тих, хто мріє побачити зорі зблизька.</p>
+      </div>
+      <nav class="footer-nav">
+        <a href="index.html">Головна</a>
+        <a href="destinations.html">Напрямки</a>
+        <a href="experience.html">Місії</a>
+        <a href="about.html">Про нас</a>
+        <a href="contact.html">Контакти</a>
+      </nav>
+      <div class="social-links">
+        <a href="#" aria-label="Пошта"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></a>
+        <a href="#" aria-label="Телеграм"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M21 3L11 13M21 3l-6.5 18-4-8-8-4z"/></svg></a>
+        <a href="#" aria-label="Чат"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h16v11H8l-4 4z"/></svg></a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 AURORA</span>
+      <span>Концептуальний сайт — створено для демонстрації дизайну</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
